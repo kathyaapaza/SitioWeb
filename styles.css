@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo img {
+    max-width: 100px; 
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+nav {
+    margin-top: 20px; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+}
+
+.section {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.inicio {
+    background-color: #f0f0f0;
+}
+
+.bibliografia {
+    background-color: #d0e0f0;
+}
+
+.bibliografia-info {
+    display: flex;
+    align-items: center;
+}
+
+.bibliografia-info img {
+    max-width: 300px;
+    margin-right: 20px;
+    border: 3px solid black;
+}
+
+.habilidades {
+    background-color: #f0d0d0;
+}
+.habilidades ul {
+    list-style-type: none; /* Quita los puntos */
+    padding: 0; /* Elimina el padding por defecto */
+}
+
+.habilidades li {
+    margin-bottom: 5px; /* Espacio entre los elementos de la lista */
+}
+
+
+.proyectos {
+    background-color: #d0f0d0;
+}
+
+.contacto {
+    background-color: #f0d0f0;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
